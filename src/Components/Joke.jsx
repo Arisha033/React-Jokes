@@ -1,8 +1,9 @@
 import React from 'react'
 
-export const Jokes = (props) => {
-    console.log(props.upvotes)
-    console.log(props.isPun)
+export default function Joke(props)  {
+    // console.log(props.upvotes)
+    // console.log(props.isPun)
+    
   return (
     <>
     <div className='jokes'>
